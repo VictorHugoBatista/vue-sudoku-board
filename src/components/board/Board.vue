@@ -11,6 +11,6 @@ export default {
   name: 'Sudoku-Board',
   components: {
     Quadrant,
-  }
+  },
 }
 </script>
