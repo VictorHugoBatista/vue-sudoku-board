@@ -24,10 +24,13 @@ export default {
 
 <style>
 .sudoku-board {
+  background-color: #dceef5;
+  border-radius: 7px;
+  box-shadow: inset 0px 0px 10px -4px rgba(0,0,0,0.6);
   display: flex;
   height: 600px;
   justify-content: center;
-  margin: 20px 0;
+  padding: 20px;
   width: 600px;
 }
 </style>

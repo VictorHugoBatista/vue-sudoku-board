@@ -18,10 +18,9 @@ export default {
 <style>
 .sudoku-container {
   align-items: center;
-  background-color: #dceef5;
-  border-radius: 7px;
+  background-color: #fafafe;
   display: flex;
-  height: 100%;
+  height: 100vh;
   justify-content: center;
   width: 100%;
 }

@@ -32,7 +32,7 @@ export default {
 }
 
 .sudoku-field:focus {
-  background-color: rgba(255, 255, 255, .6);
+  background-color: rgba(250, 250, 254, .6);
   box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, .4);
   outline: none;
 }
