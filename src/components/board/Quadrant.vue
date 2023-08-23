@@ -1,16 +1,23 @@
 <template>
 <div class="sudoku-quadrant" >
-  <Field v-for="n in 9" :key="n" />
+  <Grid
+    gridItemBorderColor="gray"
+    gridItemBorderStyle="dotted"
+  >
+    <Field />
+  </Grid>
 </div>
 </template>
 
 <script>
+import Grid from '../layout/Grid.vue'
 import Field from './Field.vue'
 
 export default {
   name: 'Sudoku-Quadrant',
   components: {
     Field,
+    Grid,
   },
 }
 </script>

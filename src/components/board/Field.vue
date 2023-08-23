@@ -12,8 +12,6 @@ export default {
 
 <style>
 .sudoku-field {
-  height: 33%;
-  flex: 0 1 30%;
-  width: 33%;
+
 }
 </style>

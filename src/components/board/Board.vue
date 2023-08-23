@@ -1,11 +1,10 @@
 <template>
 <div class="sudoku-board">
   <Grid
-    gridComponent="Quadrant"
     gridItemBorderColor="black"
     gridItemBorderStyle="solid"
   >
-  <Quadrant />
+    <Quadrant />
   </Grid>
 </div>
 </template>

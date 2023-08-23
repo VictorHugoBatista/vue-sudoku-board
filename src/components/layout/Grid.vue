@@ -22,14 +22,13 @@ export default {
 .grid {
   display: flex;
   flex-flow: row wrap;
-  height: 900px;
-  width: 900px;
 }
 
 .grid-item {
   display: flex;
-  flex: 0 1 30%;
+  flex: 0 1 calc(33.3333% - 4px);
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 .grid-item-1 {
