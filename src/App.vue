@@ -1,28 +1,28 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="sudoku-container">
+    <Board />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Board from './components/board/Board.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Board,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.sudoku-container {
+  align-items: center;
+  background-color: #dceef5;
+  border-radius: 7px;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
 }
 </style>
