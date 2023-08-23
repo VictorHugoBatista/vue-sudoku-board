@@ -1,7 +1,7 @@
 <template>
 <div class="sudoku-quadrant" >
   <Grid
-    gridItemBorderColor="gray"
+    gridItemBorderColor="#acb88f"
     gridItemBorderStyle="dotted"
   >
     <Field />
