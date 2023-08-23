@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="sudoku-quadrant">
   <Field v-for="n in 9" :key="n" />
 </div>
 </template>
@@ -14,3 +14,11 @@ export default {
   },
 }
 </script>
+
+<style>
+.sudoku-quadrant {
+  display: flex;
+  flex: 0 1 30%;
+  flex-flow: row wrap;
+}
+</style>
