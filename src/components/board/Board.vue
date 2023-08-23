@@ -1,6 +1,8 @@
 <template>
 <div class="sudoku-board">
-  <Quadrant v-for="n in 9" :key="n" />
+  <Quadrant v-for="n in 9"
+    :quadrantClass="`sudoku-quadrant-${n}`"
+    :key="n" />
 </div>
 </template>
 
@@ -17,11 +19,11 @@ export default {
 
 <style>
 .sudoku-board {
-  align-items: center;
   display: flex;
   height: 900px;
   flex-flow: row wrap;
   justify-content: center;
+  margin: 20px 0;
   width: 900px;
 }
 </style>
