@@ -1,17 +1,23 @@
 <template>
 <div class="sudoku-board">
-  <Quadrant v-for="n in 9"
-    :quadrantClass="`sudoku-quadrant-${n}`"
-    :key="n" />
+  <Grid
+    gridComponent="Quadrant"
+    gridItemBorderColor="black"
+    gridItemBorderStyle="solid"
+  >
+  <Quadrant />
+  </Grid>
 </div>
 </template>
 
 <script>
 import Quadrant from './Quadrant.vue'
+import Grid from '../layout/Grid.vue'
 
 export default {
   name: 'Sudoku-Board',
   components: {
+    Grid,
     Quadrant,
   },
 }
@@ -21,7 +27,6 @@ export default {
 .sudoku-board {
   display: flex;
   height: 900px;
-  flex-flow: row wrap;
   justify-content: center;
   margin: 20px 0;
   width: 900px;
