@@ -13,17 +13,22 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 
+.sudoku-field-container {
+  height: 100%;
+  width: 100%;
+}
+
 .sudoku-field {
   background-color: transparent;
   border: none;
   border-radius: 3px;
   font-family: 'Passion One', cursive;
   font-size: 40px;
-  margin: 10px;
+  margin: 5px;
   text-align: center;
-  height: calc(100% - 20px);
+  height: calc(100% - 10px);
   transition: 250ms ease-in;
-  width: calc(100% - 20px);
+  width: calc(100% - 10px);
 }
 
 .sudoku-field:focus {

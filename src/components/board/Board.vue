@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import Quadrant from './Quadrant.vue'
 import Grid from '../layout/Grid.vue'
+import Quadrant from './Quadrant.vue'
 
 export default {
   name: 'Sudoku-Board',
@@ -25,9 +25,9 @@ export default {
 <style>
 .sudoku-board {
   display: flex;
-  height: 900px;
+  height: 600px;
   justify-content: center;
   margin: 20px 0;
-  width: 900px;
+  width: 600px;
 }
 </style>

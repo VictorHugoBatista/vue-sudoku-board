@@ -20,13 +20,14 @@ export default {
 
 <style>
 .grid {
+  align-items: stretch;
   display: flex;
   flex-flow: row wrap;
 }
 
 .grid-item {
   display: flex;
-  flex: 0 1 calc(33.3333% - 4px);
+  flex: 1 1 calc(33.3333% - 4px);
   flex-flow: row wrap;
   justify-content: center;
 }
