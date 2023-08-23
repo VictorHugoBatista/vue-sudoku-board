@@ -11,11 +11,14 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
 .sudoku-field {
   background-color: transparent;
   border: none;
   border-radius: 3px;
-  font-size: 15px;
+  font-family: 'Passion One', cursive;
+  font-size: 40px;
   margin: 10px;
   text-align: center;
   height: calc(100% - 20px);
