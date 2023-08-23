@@ -1,11 +1,16 @@
 <template>
 <div>
-  <b>board</b>
+  <Quadrant v-for="n in 9" :key="n" />
 </div>
 </template>
 
 <script>
+import Quadrant from './Quadrant.vue'
+
 export default {
-  name: 'Sudoku-Board'
+  name: 'Sudoku-Board',
+  components: {
+    Quadrant,
+  }
 }
 </script>

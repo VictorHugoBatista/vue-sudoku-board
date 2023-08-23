@@ -10,7 +10,7 @@ import Board from './components/board/Board.vue'
 export default {
   name: 'App',
   components: {
-    Board
+    Board,
   }
 }
 </script>
